@@ -1,0 +1,83 @@
+/*Genel Biçimlendirme*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;/*yazı fontunu değiştirir*/
+}
+
+/*header bölümü*/
+
+body{
+   min-height:100vh ;/*vh view heigt görünen alanın yüksekliği*/
+   display: flex;
+   flex-direction: column;/*içindekileri nesneleri hangi yönde yerleşceğini verir*/
+}
+
+header, footer{
+    padding-top: 25px; /*yukardan boşluk veriyor*/
+    background-color: #333;
+    color: #fff;
+    text-align: center;/*yazıyı ortalar*/
+}
+header h1{
+    font-size: 2.4;
+}
+
+#main-menu{
+    list-style: none;
+    display:flex; /* aşağa ve yanana olmasını sağlar*/
+    justify-content: center; /* içindekini flex öğeleri ortalanır*/
+}
+
+#main-menu a{
+    display: block;/*herşeyi yapabiliyoruz*/
+    color:#fff;
+    text-decoration: none;/*alttaki çizgi kaldırır*/
+    padding:8px 10px;
+}
+
+/*orta bölüm*/
+main{
+    display: flex; /*yanyana olur*/
+    gap:10px; /*içdeki nesneleri arasında boşluk yapar*/
+    padding: 20px;
+    flex:auto;
+}
+
+#content{
+    background-color:#8db9ca;
+    padding: 20px;/* iç boşluk*/
+    border: #9f9fa3 solid 1px;/*kenarlık yapar*/
+    flex:9;
+}
+#content p{
+    margin-bottom:10px;/*alttan boşluk bırakır*/
+    margin-top: 5px;/*yukardan boşluk bırakır*/
+}
+aside{
+    background-color:#8db9ca;
+    padding: 20px;
+    border: #9f9fa3 solid 1px;
+    flex:3;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside h2{
+    margin-bottom: 10px;
+}
+aside ul{
+    list-style: none;
+}
+
+aside a{
+    color: #000;
+   /* text-decoration: none;/*linkin altındaki çizgileri kaldırır*/
+
+}
+footer{
+    padding-bottom: 30px;
+   }
