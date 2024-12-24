@@ -67,7 +67,7 @@ footer{
     padding: 7px;
     box-shadow:0 0 5px #807474;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*baştakini kutuyu sola son kutuyuda sağa yatırır*/
 }
 .sag{
     color: #e66c06;
