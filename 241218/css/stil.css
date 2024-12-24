@@ -27,7 +27,7 @@ body{
 }
 #menu ul{
     display: flex;/*yanyana olur*/
-    justify-content: space-around;/* justify-content:flex nesnelerin hizanlanmasını sağlar*/
+    justify-content: space-around;/* flex olan nesnelerin nasıl hizalanacağını ayaralar*/
     list-style-type: none;/*yanındaki noktaları kaldırır*/
 }
 #menu a{
