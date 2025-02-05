@@ -1,0 +1,96 @@
+.alt-cizgi-2{
+    border-bottom: 2px solid rgb(204,204,204);
+}
+body{
+    background-color: rgb(202,204,209);
+}
+header{
+    background-color: rgb(37,38,39);
+   border-bottom: 2px solid rgb(206,24,30);;
+}
+#topmenu a,
+#lang-menu a,
+#footer-menu a,
+#social-menu a{
+    display: block;
+    padding:0.5rem ;
+   color:rgb(204,204,204);
+   text-decoration: none;
+   font-family: sans-serif;
+   font-size: .75rem;
+}
+#main-menu a{
+    display: block;
+    padding:0.5rem 1rem;
+   color:rgb(204,204,204);
+   text-decoration: none;
+   font-family: sans-serif;
+}
+#main-menu a:hover{
+    background-color: rgb(206,24,30);
+}
+
+.card{
+    background-color: #252627;
+    margin:1rem .75rem 0 .75rem;
+    padding: 1.5rem;
+    color:#ffff;
+    font-family: sans-serif;
+}
+.card-poster{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;/*resmi sıdırmak için kullanılan yöntem*/
+}
+.card-title{
+  font-size:1.4rem;
+  text-align: center;
+  margin-bottom:0.5rem;
+}
+.buy-ticket{
+    background-color: rgb(206,24,30);
+    color: #ffff;
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border:none;
+}
+.nmargin-1{
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+footer{
+    background-color: rgb(37,38,39);
+    border-top: 3px solid rgb(206,24,30);
+    margin-top: 1em;
+    font-family: sans-serif;
+    font-size: .75rem;
+    color: #cccccc;
+}
+.soz{
+    border: 10px solid #ffff;
+    margin:1rem 0;
+    padding: 1rem;
+    background-color:rgb(206,24,30);
+    text-align: center;
+    color: #ffff;
+    font-family: sans-serif;
+}
+.soz q{
+    font-size: 1.5rem;
+}
+.soz p{
+    text-align: end;
+    font-weight: 600;
+}
+.footer-aciklama{
+    color: #cccccc;
+}
+.footer-aciklama a{
+    color: #ffff;
+}
+.social-menu a{
+    font-size: 1.5rem;
+}
